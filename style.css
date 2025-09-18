@@ -1,0 +1,25 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body { background: #f4f4f4; color: #333; line-height: 1.6; }
+header {
+  background: #1e1e2f; color: #fff; padding: 15px 30px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+header .logo { height: 50px; }
+header nav ul { display: flex; list-style: none; }
+header nav ul li { margin: 0 15px; position: relative; cursor: pointer; }
+header nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+.submenu { display: none; position: absolute; top: 25px; left: 0; background: #2a2a3d; padding: 10px; border-radius: 5px; }
+.submenu li { margin: 5px 0; }
+.submenu li a { color: #fff; text-decoration: none; }
+.submenu.show { display: block; }
+.ads { background: #ddd; text-align: center; padding: 20px; margin: 20px; border: 2px dashed #aaa; }
+main { padding: 20px; }
+main h1 { margin-bottom: 15px; color: #1e1e2f; }
+.contato { background: #fff; padding: 20px; border-radius: 10px; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+footer { background: #1e1e2f; color: #fff; text-align: center; padding: 15px; margin-top: 20px; }
